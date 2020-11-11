@@ -1,0 +1,12 @@
+package ge.edu.btu.multithreading;
+
+public class Main {
+
+    public static void main(String args[]) {
+        Threads R1 = new Threads( "Thread-1");
+        R1.start();
+
+        Threads R2 = new Threads( "Thread-2");
+        R2.start();
+    }
+}
